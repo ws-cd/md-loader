@@ -1,0 +1,36 @@
+{
+  "name": "@ws-cd/md-loader",
+  "module": "dist/index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "author": "ws <dev.songwei@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ws-cd/md-loader"
+  },
+  "homepage": "https://github.com/ws-cd/md-loader",
+  "bugs": {
+    "url": "https://github.com/ws-cd/md-loader/issues"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.11",
+    "@types/remark-heading-id": "^1.0.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@vcarl/remark-headings": "^0.1.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-heading-id": "^1.0.1",
+    "remark-highlight.js": "^7.0.1",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.4",
+    "vfile-matter": "^5.0.0"
+  }
+}
